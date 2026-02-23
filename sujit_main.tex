@@ -1,0 +1,115 @@
+%------------------------------------------------------------------------------
+% Sujit Chowdhury – Academic CV (ModernCV)
+%------------------------------------------------------------------------------
+\documentclass[11pt,a4paper]{moderncv}
+
+%----------------------------  STYLE / COLOR  ---------------------------------
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% Use explicit margins instead of scale + manual vspaces
+\usepackage[top=1.2cm,bottom=1.6cm,left=1.6cm,right=1.6cm]{geometry} % <<< tighter top, balanced sides
+\setlength{\hintscolumnwidth}{2.6cm}
+\recomputelengths
+
+
+
+%----------------------------  PERSONAL DATA  ----------------------------------
+% (Remove manual negative vspace; use proper margins instead)
+% move ONLY the printed text up on the left
+\name{\vspace*{-0.4cm}\raisebox{5mm}{Sujit}}{\raisebox{5mm}{Chowdhury}}
+\title{\vspace*{0.7cm}Ph.D.\ Scholar — IIT Patna}
+
+% \name{Sujit}{Chowdhury}
+% \title{Ph.D.\ Scholar — IIT Patna}
+\address{Indian Institute of Technology Patna}{Dept.\ of Computer Science \& Engineering}{Bihta 801106, India}
+\phone[mobile]{+91 85091 26880}
+\email{sujitgopal880@gmail.com}
+\homepage{https://sujit880.github.io/}
+\social[github]{sujit880}
+\photo[71pt][0.5pt]{sujit} % <<< slightly smaller photo to reduce header height
+\extrainfo{ORCID: 0000-0002-5170-8098}
+
+%----------------------------  DOCUMENT  ---------------------------------------
+\begin{document}
+\makecvtitle
+\vspace{-0.9cm} % <<< gentle tightening after title (safe in classic style)
+
+%--------------------------------- PROFESSIONAL SUMMARY ------------------------
+\section{Professional Summary}
+%Ph.D.\ Research Scholar in Computer Science \& Engineering at IIT Patna with expertise in federated learning, reinforcement learning, and blockchain-based secure AI. My work designs adaptive, privacy-preserving FL frameworks that address heterogeneity, fairness, and security, introducing aggregation strategies and generative feature models that improve convergence, generalization, and robustness. I have hands-on experience with large-scale experiments and trustworthy ML for healthcare, IoT, and edge intelligence, and I actively teach AI-centric and core CS courses to bridge fundamentals with advanced applications.
+Ph.D. Research Scholar in Computer Science \& Engineering at IIT Patna, I have expertise in federated learning, reinforcement learning, and blockchain-based secure AI. My research focuses on designing adaptive and privacy-preserving learning frameworks that address challenges of heterogeneity, fairness, and security in distributed AI systems. I have proposed novel aggregation strategies and generative feature models that improve convergence, generalization, and robustness in federated environments. With publications in top IEEE journals and conferences, I bring a strong background in trustworthy machine learning, hands-on experience with large-scale experiments, and a passion for advancing collaborative AI for healthcare, IoT, and edge intelligence. 
+%I am seeking a postdoctoral position where I can contribute to cutting-edge research in secure and scalable AI while collaborating with interdisciplinary teams.
+% Alongside my research contributions, I am deeply passionate about teaching AI-centric subjects—including Artificial Intelligence, Neural Networks, Machine Learning, Deep Learning, and Image Processing—while also engaging with core Computer Science courses like Programming, Data Structures, and Compiler Design. My aim is to bridge fundamental computing knowledge with advanced AI-driven applications to prepare students for both academic research and industry challenges.
+
+%--------------------------------- RESEARCH INTERESTS --------------------------
+\section{Research Interests}
+\cvitem{}{Designing secure, scalable, and adaptive federated learning systems with reinforcement learning and blockchain for trustworthy AI}
+
+%--------------------------------- EDUCATION -----------------------------------
+\section{Education}
+\cventry{2020--\emph{present}}{Ph.D., Computer Science \& Engineering}{Indian Institute of Technology Patna}{Patna}{Supervisor: Prof.\ Raju Halder}{Expected 2025 — Institute Fellowship}
+\cventry{2018--2020}{M.Tech., Computer Science \& Engineering}{IIEST Shibpur}{Howrah}{CGPA: 8.91/10}{GATE Scholarship}
+\cventry{2011--2015}{B.Tech., Computer Science \& Engineering}{Jalpaiguri Government Engineering College}{Jalpaiguri}{7.84/10}{}
+
+%--------------------------------- CURRENT PROJECT -----------------------------
+\section{Current Project}
+\cvitem{}{\textbf{Blockchain-based Secure Federated Learning Framework}}
+\cvitem{$\bullet$}{Investigate using blockchain to provide security and trust among untrusted participants in collaborative learning; study challenges and mitigation strategies.}
+\cvitem{$\bullet$}{Research improving performance of local learning approaches.}
+\cvitem{$\bullet$}{Explore adversarial attacks in federated deep learning and prevention methods.}
+\cvitem{$\bullet$}{Study using reinforcement learning to enhance local training and blockchain scalability.}
+
+%--------------------------------- PUBLICATIONS --------------------------------
+\section{Publications}
+
+\subsection*{Journal Articles}
+\cvitem{2024}{\textbf{S.~Chowdhury} \& R.~Halder, “FedSat: A Statistical Aggregation Approach for Class-Imbalanced Clients in Federated Learning,” \emph{arXiv:2407.12345}.}
+\cvitem{2023}{\textbf{S.~Chowdhury}, A.~Mukherjee, R.~Halder, “FedRLChain: Secure Federated Deep Reinforcement Learning with Blockchain,” \emph{IEEE Transactions on Services Computing}.}
+\cvitem{2021}{G.~Yasmin, \textbf{S.~Chowdhury}, J.~Nayak, P.~Das, A.~K.~Das, “Key Moment Extraction for Video Summarization,” \emph{Neural Computing and Applications}.}
+
+\subsection*{Conference Papers}
+\cvitem{2023}{P.~Sahoo, S.~Saha, S.~Mondal, \textbf{S.~Chowdhury}, S.~Gowda, “Vision Transformer-based Federated Learning for COVID-19 Detection,” \emph{ICONIP}.}
+\cvitem{2022}{P.~Sahoo, S.~Saha, S.~Mondal, \textbf{S.~Chowdhury}, S.~Gowda, “Computer-Aided COVID-19 Screening from CT Scan via Fuzzy Ensemble,” \emph{IJCNN}.}
+\cvitem{2022}{M.~T.~Alam, \textbf{S.~Chowdhury}, R.~Halder, A.~Maiti, “Blockchain DSLs: Survey, Classification and Comparison,” \emph{IEEE Blockchain}.}
+
+%--------------------------------- TEACHING ------------------------------------
+\section{Teaching Experience}
+\cventry{2020--\emph{present}}{Teaching Assistant}{IIT Patna}{}{Courses: Introduction of Blockchain Technology; Formal Methods for Analysis and verification; Compiler Design; Discrete Mathematics}{}
+\cventry{2018--2020}{Teaching Assistant}{IIEST Shibpur}{}{Courses: Foundation of C programming; Operating Systems; Database Systems}{}
+
+%--------------------------------- INDUSTRY ------------------------------------
+\section{Industry Experience}
+\cventry{2017--2018}{Software Engineer}{Divsoft Solutions Pvt. Ltd.}{Kolkata}{}{Enhanced human‑pose‑estimation accuracy for OpenAI models; developed deep‑learning boundary‑estimation system for weigh‑bridges to deliver accurate truck‑weight measurement; reduced latency between concurrent dual‑camera modules; designed and deployed roadside licence‑plate data‑capture pipeline for large‑scale real‑world dataset collection.}
+% <<< condensed, clear impact
+
+%--------------------------------- SKILLS --------------------------------------
+\section{Technical Skills}
+\cvitem{Programming}{Python, C/C++, Bash}
+\cvitem{ML Frameworks}{PyTorch, TensorFlow, scikit-learn, OpenCV}
+\cvitem{Tools}{Git, Docker}
+\cvitem{Databases}{MySQL, Cassandra}
+\cvitem{Operating Systems}{Linux, Windows}
+
+%--------------------------------- HONORS --------------------------------------
+\section{Honors \& Awards}
+\cvitem{2020--present}{Ph.D.\ Institute Fellowship, Ministry of Human Resource Development, India}
+\cvitem{2018--2020}{GATE Scholarship, Ministry of Human Resource Development, India}
+
+%--------------------------------- SERVICE -------------------------------------
+\section{Professional Service}
+\cvitem{}{Reviewer: IEEE TPAMI, IEEE TNNLS, ICLR}
+
+%--------------------------------- WORKSHOPS ----------------------------------
+\section{Workshops \& Short Courses}
+\cvitem{}{IEEE Symposium on 6G Mobile Wireless Communication (2024)}
+\cvitem{}{GIAN: Proof \& Refinement for Cyber-Physical Systems (2023)}
+\cvitem{}{GIAN: Static Program Analysis (2022)}
+
+%--------------------------------- REFERENCES ----------------------------------
+\section{References}
+\cvlistitem{\textbf{Prof.\ Raju Halder}\\Dept.\ of CSE, IIT Patna, Bihta-801106, Patna, Bihar, India\\\textbf{Email:} \href{mailto:halder@iitp.ac.in}{halder@iitp.ac.in}\\\emph{Ph.D.\ supervisor}}
+\vspace{0.2cm}
+\cvlistitem{\textbf{Prof.\ Asit Kumar Das}\\Dept.\ of CST, IIEST Shibpur, Howrah, West Bengal, India\\\textbf{Email:} \href{mailto:akdas@cs.iiests.ac.in}{akdas@cs.iiests.ac.in}\\\emph{M.Tech.\ supervisor}}
+
+\end{document}
